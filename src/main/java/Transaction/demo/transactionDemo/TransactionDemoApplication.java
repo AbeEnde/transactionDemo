@@ -2,13 +2,10 @@ package Transaction.demo.transactionDemo;
 
 import Transaction.demo.transactionDemo.model.DataMapper;
 import Transaction.demo.transactionDemo.model.DataMapperChild;
-import Transaction.demo.transactionDemo.model.entity.Parent;
 import Transaction.demo.transactionDemo.repository.ChildRepo;
 import Transaction.demo.transactionDemo.repository.ParentRepo;
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,7 +15,7 @@ import org.springframework.context.annotation.Bean;
 import java.io.IOException;
 import java.io.InputStream;
 
-@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+@SpringBootApplication()
 public class TransactionDemoApplication {
 
 

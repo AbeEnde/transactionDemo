@@ -1,7 +1,6 @@
 package Transaction.demo.transactionDemo;
 
 import Transaction.demo.transactionDemo.controller.ParentChildController;
-import Transaction.demo.transactionDemo.model.entity.Child;
 import Transaction.demo.transactionDemo.model.entity.Parent;
 import Transaction.demo.transactionDemo.repository.ChildRepo;
 import Transaction.demo.transactionDemo.repository.ParentRepo;
@@ -14,7 +13,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
